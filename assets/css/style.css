@@ -161,12 +161,12 @@ body {
 }
 
 a {
-  color: #1acc8d;
+  color: yellow;
   text-decoration: none;
 }
 
 a:hover {
-  color: #34e5a6;
+  color: #FCC402;
   text-decoration: none;
 }
 
@@ -198,7 +198,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
+  border: 6px solid yellow;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -226,7 +226,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: yellow;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -274,7 +274,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: url(../img/wallpaper.png) 0% 0% / cover no-repeat;
+  background-color: #FCC402;
   height: 103px;
 }
 
@@ -295,9 +295,9 @@ h6 {
 #header .logo img {
   padding: 18px;
   margin: 0px;
-  max-height: 138px;
+  height: auto;
   border-radius: 2rem;
-  width: 200px;
+  width: 300px;
 }
 
 /*--------------------------------------------------------------
@@ -467,7 +467,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: #FCC402;
   transition: 0.3s;
   z-index: 999;
 }
@@ -560,8 +560,9 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero-home {
-  background: url(../img/wallpaper.png);
+  background: url(../img/wallpaper.jpg);
   background-size: cover;
+  
   background-repeat: no-repeat;
 }
 
@@ -585,7 +586,7 @@ h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid yellow;
 }
 
 .icon-vantagens {
@@ -610,7 +611,7 @@ h6 {
   border-radius: 1rem;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: yellow;
 }
 
 #hero .btn-get-started:hover {
@@ -703,13 +704,14 @@ h6 {
   }
   video {
     margin-top: 2rem;
+    width: 100% !important;
   }
   .section-title.transportadores p {
     font-size: 27px !important;
   }
   #header.header-scrolled {
     height: 69px;
-    background: url(../img/wallpaper.png);
+    background: #FCC402;
 
   }
 
@@ -750,7 +752,8 @@ h6 {
   #header .logo img {
     padding: 1px;
     margin: 0px;
-    max-height: 80px;
+    height: auto;
+    width: 200px;
   }
   #hero .hero-img img {
     max-width: 24%;
@@ -847,7 +850,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: black;
   font-family: "Poppins", sans-serif;
 }
 
@@ -856,7 +859,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: #FCC402;
   margin: 4px 10px;
 }
 
@@ -867,7 +870,8 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #FCC402;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 /*--------------------------------------------------------------
@@ -963,13 +967,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: yellow;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: yellow;
+  border-color: yellow;
 }
 
 .about .icon-box:hover .icon i {
@@ -989,7 +993,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: yellow;
 }
 
 .about .icon-box .description {
@@ -1143,7 +1147,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: yellow;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -1194,7 +1198,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: yellow;
 }
 
 .details .content p:last-child {
@@ -1336,7 +1340,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1acc8d;
+  background-color: yellow;
 }
 
 @media (min-width: 1024px) {
@@ -1425,7 +1429,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #1acc8d;
+  color: yellow;
 }
 
 .team .member .social i {
@@ -1490,7 +1494,7 @@ section {
 }
 
 .pricing ul i {
-  color: #1acc8d;
+  color: yellow;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1526,7 +1530,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: yellow;
 }
 
 .pricing .advanced {
@@ -1538,7 +1542,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1acc8d;
+  background: yellow;
   color: #fff;
 }
 
@@ -1609,7 +1613,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: yellow;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1671,7 +1675,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: yellow;
   color: #fff;
 }
 
@@ -1741,7 +1745,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: yellow;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1786,7 +1790,7 @@ section {
   margin-bottom: 15px;
   background: #010246;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid yellow;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1821,7 +1825,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: yellow;
   color: #fff;
   text-decoration: none;
 }
@@ -1895,7 +1899,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: yellow;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
